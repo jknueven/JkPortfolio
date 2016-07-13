@@ -9,8 +9,62 @@ h1, h2, h3, h4, p, i {
 	color: $primaryColor;
 }
 
+h1 {
+	font-family: "Merriweather";
+	font-weight:700;
+	font-style:italic;
+}
+
+header{
+	text-align:center;
+}
+
+.nav {
+	ul{
+		list-style:none;
+		li{
+			h3{
+				margin:0;
+				font-family: "Merriweather";
+				font-weight: bold;
+				font-size: 23px;
+			}
+			display: inline-block;
+			.btn-primary{
+				height: 40px;
+				padding-top: 8px;
+				background-color:lighten($secondaryColor,20);
+				border:none;
+			}
+		}
+	}
+	img {
+		height: 150px;
+		border-radius:70%;
+	}
+}
+
 footer {
+	text-align:center;
+	border-top:5px dashed $primaryColor;
 	ul{
 		list-style: none;
+		li{
+
+		}
+		p{
+			font-size: 16px;
+		}
+		i{
+			font-size: 30px;
+		}
+		h3{
+			font-family: "Merriweather";
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+	i{
+		margin:5px;
 	}
 }

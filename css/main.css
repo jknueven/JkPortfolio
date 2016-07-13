@@ -4,5 +4,45 @@ body {
 h1, h2, h3, h4, p, i {
   color: #38CB9B; }
 
-footer ul {
+h1 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-style: italic; }
+
+header {
+  text-align: center; }
+
+.nav ul {
   list-style: none; }
+  .nav ul li {
+    display: inline-block; }
+    .nav ul li h3 {
+      margin: 0;
+      font-family: "Merriweather";
+      font-weight: bold;
+      font-size: 23px; }
+    .nav ul li .btn-primary {
+      height: 40px;
+      padding-top: 8px;
+      background-color: #585858;
+      border: none; }
+
+.nav img {
+  height: 150px;
+  border-radius: 70%; }
+
+footer {
+  text-align: center;
+  border-top: 5px dashed #38CB9B; }
+  footer ul {
+    list-style: none; }
+    footer ul p {
+      font-size: 16px; }
+    footer ul i {
+      font-size: 30px; }
+    footer ul h3 {
+      font-family: "Merriweather";
+      font-weight: bold;
+      text-decoration: underline; }
+  footer i {
+    margin: 5px; }
