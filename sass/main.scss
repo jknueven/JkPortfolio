@@ -1,0 +1,16 @@
+$primaryColor: #38CB9B;
+$secondaryColor: #252525;
+
+body {
+	background-color:$secondaryColor;
+}
+
+h1, h2, h3, h4, p, i {
+	color: $primaryColor;
+}
+
+footer {
+	ul{
+		list-style: none;
+	}
+}
