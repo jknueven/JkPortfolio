@@ -2,7 +2,7 @@ body {
   background-color: #252525; }
 
 h1, h2, h3, h4, p, i {
-  color: #38CB9B; }
+  color: #7A98C2; }
 
 h1 {
   font-family: "Merriweather";
@@ -16,6 +16,11 @@ header {
   list-style: none; }
   .nav ul li {
     display: inline-block; }
+    .nav ul li a:hover {
+      background-color: white;
+      text-decoration: none; }
+      .nav ul li a:hover h3 {
+        color: #252525; }
     .nav ul li h3 {
       margin: 0;
       font-family: "Merriweather";
@@ -24,16 +29,17 @@ header {
     .nav ul li .btn-primary {
       height: 40px;
       padding-top: 8px;
-      background-color: #585858;
+      margin: 10px;
+      background-color: #3f3f3f;
       border: none; }
 
 .nav img {
   height: 150px;
-  border-radius: 70%; }
+  border-radius: 30%; }
 
 footer {
   text-align: center;
-  border-top: 5px dashed #38CB9B; }
+  border-top: 5px dashed #7A98C2; }
   footer ul {
     list-style: none; }
     footer ul p {

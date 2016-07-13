@@ -1,4 +1,4 @@
-$primaryColor: #38CB9B;
+$primaryColor: #7A98C2;
 $secondaryColor: #252525;
 
 body {
@@ -23,6 +23,14 @@ header{
 	ul{
 		list-style:none;
 		li{
+			a:hover{
+					background-color:white;
+					text-decoration: none;
+					h3{
+						color:$secondaryColor;
+					}
+				}
+
 			h3{
 				margin:0;
 				font-family: "Merriweather";
@@ -33,14 +41,16 @@ header{
 			.btn-primary{
 				height: 40px;
 				padding-top: 8px;
-				background-color:lighten($secondaryColor,20);
+				margin:10px;
+				background-color:lighten($secondaryColor,10);
 				border:none;
 			}
 		}
 	}
+
 	img {
 		height: 150px;
-		border-radius:70%;
+		border-radius:30%;
 	}
 }
 
