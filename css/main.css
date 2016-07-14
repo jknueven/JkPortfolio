@@ -1,3 +1,60 @@
+.contactInfo {
+  margin: 20px; }
+  .contactInfo ul {
+    text-align: center;
+    display: block; }
+    .contactInfo ul li p {
+      color: white;
+      font-size: 18px; }
+    .contactInfo ul li i {
+      font-size: 40px;
+      color: #7A98C2;
+      display: block;
+      text-align: left; }
+    .contactInfo ul li .fa-mobile {
+      font-size: 60px; }
+
+.contactForm {
+  margin: 20px;
+  float: right; }
+  .contactForm input {
+    display: block;
+    margin-top: 10px;
+    width: 80%;
+    background-color: white;
+    color: #436493;
+    border: none;
+    border-radius: 3px; }
+  .contactForm textarea {
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    color: #436493;
+    border: none;
+    border-radius: 3px; }
+  .contactForm button {
+    position: absolute;
+    right: 95px;
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+    width: 70px;
+    background-color: #7A98C2;
+    padding: 0px; }
+    .contactForm button :hover {
+      background-color: white; }
+      .contactForm button :hover h3 {
+        color: #252525; }
+    .contactForm button h3 {
+      font-family: "Merriweather";
+      font-size: 19px;
+      font-weight: bold;
+      padding: 0px;
+      margin: 0;
+      padding-top: 2px;
+      color: white; }
+
 body {
   background-color: #252525; }
 
@@ -10,38 +67,71 @@ h1 {
   font-style: italic; }
 
 header {
+  text-align: center;
+  margin: auto; }
+
+.nav {
+  border-bottom: 5px dashed #7A98C2; }
+  .nav ul {
+    list-style: none;
+    padding: 0; }
+    .nav ul li {
+      display: inline-block; }
+      .nav ul li a:hover {
+        background-color: white;
+        text-decoration: none; }
+        .nav ul li a:hover h3 {
+          color: #252525; }
+      .nav ul li h3 {
+        margin: 0;
+        font-family: "Merriweather";
+        font-weight: bold;
+        font-size: 23px; }
+      .nav ul li .btn-primary {
+        height: 40px;
+        padding-top: 8px;
+        margin: 10px;
+        background-color: #3f3f3f;
+        border: none; }
+        .nav ul li .btn-primary :nth-child(1) {
+          margin-left: 0px; }
+  .nav .imgFrame {
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    border: 10px solid #7A98C2; }
+  .nav img {
+    height: 130px;
+    margin-top: 2px;
+    border-radius: 50%;
+    border: 3px solid #252525;
+    border-spacing: 10px; }
+
+.splash {
+  display: block;
+  margin: auto;
   text-align: center; }
-
-.nav ul {
-  list-style: none; }
-  .nav ul li {
-    display: inline-block; }
-    .nav ul li a:hover {
-      background-color: white;
-      text-decoration: none; }
-      .nav ul li a:hover h3 {
-        color: #252525; }
-    .nav ul li h3 {
-      margin: 0;
-      font-family: "Merriweather";
-      font-weight: bold;
-      font-size: 23px; }
-    .nav ul li .btn-primary {
-      height: 40px;
-      padding-top: 8px;
-      margin: 10px;
-      background-color: #3f3f3f;
-      border: none; }
-
-.nav img {
-  height: 150px;
-  border-radius: 30%; }
+  .splash h2 {
+    font-family: "Dynalight";
+    font-weight: bold;
+    font-size: 50px; }
+  .splash .subSplash {
+    font-family: "Merriweather";
+    font-size: 26px;
+    display: block;
+    margin: auto;
+    width: 50%; }
+    .splash .subSplash p {
+      color: white; }
 
 footer {
   text-align: center;
+  margin: auto;
+  margin-top: 30px;
   border-top: 5px dashed #7A98C2; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
     footer ul p {
       font-size: 16px; }
     footer ul i {

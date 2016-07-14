@@ -1,6 +1,8 @@
 $primaryColor: #7A98C2;
 $secondaryColor: #252525;
 
+@import "contact";
+
 body {
 	background-color:$secondaryColor;
 }
@@ -17,11 +19,14 @@ h1 {
 
 header{
 	text-align:center;
+	margin:auto;
 }
 
 .nav {
+	border-bottom:5px dashed $primaryColor;
 	ul{
 		list-style:none;
+		padding:0;
 		li{
 			a:hover{
 					background-color:white;
@@ -44,21 +49,60 @@ header{
 				margin:10px;
 				background-color:lighten($secondaryColor,10);
 				border:none;
+				:nth-child(1) {
+					margin-left: 0px;
+				}
 			}
 		}
 	}
+	.imgFrame{
+		height: 155px;
+		width: 155px;
+		border-radius:50%;
+		border:10px solid $primaryColor;
+	}
 
 	img {
-		height: 150px;
-		border-radius:30%;
+		height: 130px;
+		margin-top: 2px;
+		border-radius:50%;
+		border:3px solid $secondaryColor;
+		border-spacing: 10px;
+	}
+}
+
+.splash {
+	display: block;
+	margin:auto;
+	text-align:center;
+	
+	h2 {
+	font-family: "Dynalight";
+	font-weight:bold;
+	font-size:50px;
+	//font-style:italic;
+	}
+
+	.subSplash {
+	font-family: "Merriweather";
+	font-size: 26px;
+	display: block;
+	margin:auto;
+	width: 50%;
+		p{
+		color:white;
+		}
 	}
 }
 
 footer {
 	text-align:center;
+	margin:auto;
+	margin-top:30px;
 	border-top:5px dashed $primaryColor;
 	ul{
 		list-style: none;
+		padding: 0;
 		li{
 
 		}

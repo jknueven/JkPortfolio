@@ -1,0 +1,71 @@
+.contactInfo {
+	margin:20px;
+	ul {
+		text-align:center;
+		display:block;
+		li{
+			p{
+				color:white;
+				font-size: 18px;
+			}
+			i{
+				font-size: 40px;
+				color:$primaryColor;
+				display: block;
+				text-align: left;
+			}
+			.fa-mobile{
+				font-size: 60px;
+			}
+		}
+	}
+}
+
+.contactForm {
+	margin:20px;
+	float:right;
+	input{
+		display: block;
+		margin-top:10px;
+		width: 80%;
+		background-color:white;
+		color:darken($primaryColor,20);
+		border:none;
+		border-radius:3px;
+	}
+	textarea{
+		margin-top: 10px;
+		width: 80%;
+		height: 200px;
+		background-color:white;
+		color:darken($primaryColor,20);
+		border:none;
+		border-radius:3px;
+	}
+	button{
+		position: absolute;
+		right:95px;
+		display: block;
+		margin-top: 5px;
+		height:30px;
+		width: 70px;
+		background-color: $primaryColor;
+		padding:0px;
+		:hover{
+			background-color:white;
+			h3{
+				color:$secondaryColor;
+			}
+		}
+
+		h3{
+			font-family: "Merriweather";
+			font-size: 19px;
+			font-weight: bold;
+			padding: 0px;
+			margin:0;
+			padding-top:2px;
+			color:white;
+		}
+	}
+}
