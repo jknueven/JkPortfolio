@@ -1,0 +1,43 @@
+.imgWrap{ 
+	border:10px solid $primaryColor;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    margin: 50px auto auto;
+    display: block;
+	img {
+		height: 270px;
+		border-radius: 50%;
+		display: block;
+		margin:auto;
+		//margin-top: 5px;
+	}
+}
+
+.info {
+	margin-top:10px;
+	ul{
+		list-style: none;
+		padding:0px;
+		li{
+			h4{
+				color:white;
+				font-family:"Merriweather";
+			}
+			p{
+				//font-family: "Dynalight";
+				font-size: 16px;
+			}
+		}
+		}
+	.main {
+		h2 {
+			color:white;
+			font-family: "Merriweather";
+			font-style: italic;
+		}
+		p{
+			font-size: 18px;
+		}
+	}
+}

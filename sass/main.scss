@@ -2,6 +2,7 @@ $primaryColor: #7A98C2;
 $secondaryColor: #252525;
 
 @import "contact";
+@import "about";
 
 body {
 	background-color:$secondaryColor;
@@ -60,14 +61,11 @@ header{
 		width: 155px;
 		border-radius:50%;
 		border:10px solid $primaryColor;
-	}
-
-	img {
-		height: 130px;
-		margin-top: 2px;
-		border-radius:50%;
-		border:3px solid $secondaryColor;
-		border-spacing: 10px;
+		h2 {
+			font-family: "Merriweather";
+			font-size: 90px;
+			color:white;
+		}
 	}
 }
 

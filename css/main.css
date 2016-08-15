@@ -55,6 +55,36 @@
       padding-top: 2px;
       color: white; }
 
+.imgWrap {
+  border: 10px solid #7A98C2;
+  border-radius: 50%;
+  height: 290px;
+  width: 290px;
+  margin: 50px auto auto;
+  display: block; }
+  .imgWrap img {
+    height: 270px;
+    border-radius: 50%;
+    display: block;
+    margin: auto; }
+
+.info {
+  margin-top: 10px; }
+  .info ul {
+    list-style: none;
+    padding: 0px; }
+    .info ul li h4 {
+      color: white;
+      font-family: "Merriweather"; }
+    .info ul li p {
+      font-size: 16px; }
+  .info .main h2 {
+    color: white;
+    font-family: "Merriweather";
+    font-style: italic; }
+  .info .main p {
+    font-size: 18px; }
+
 body {
   background-color: #252525; }
 
@@ -100,12 +130,10 @@ header {
     width: 155px;
     border-radius: 50%;
     border: 10px solid #7A98C2; }
-  .nav img {
-    height: 130px;
-    margin-top: 2px;
-    border-radius: 50%;
-    border: 3px solid #252525;
-    border-spacing: 10px; }
+    .nav .imgFrame h2 {
+      font-family: "Merriweather";
+      font-size: 90px;
+      color: white; }
 
 .splash {
   display: block;
