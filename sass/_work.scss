@@ -1,0 +1,17 @@
+.row {
+	margin-top:15px;
+	.content{
+		background-color: $secondaryColor;
+		border-radius: 5px;
+		border:2px solid white;
+		h2 {
+			color:white;
+			font-family: "Merriweather";
+		}
+		.last{
+			color:white;
+			font-style: italic;
+		}
+	}
+}
+

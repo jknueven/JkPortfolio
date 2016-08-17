@@ -1,3 +1,4 @@
+
 .contactInfo {
 	margin-top:70px;
 	margin-left: 170px;
@@ -7,20 +8,25 @@
 		display:inline-block;
 		list-style: none;
 		margin:auto;
-		padding-right: 30px;
-		border-right: 4px dashed $primaryColor;
+		padding-right: 0px;
+		//border-right: 7px dashed white;
 		li{
 			display: block;
+			background-color:$primaryColor;
+			border-radius:5px;
+			padding: 10px;
+			padding-top: 0px;
+			padding-bottom: 0px;
 			p{
 				color:white;
 				font-size: 18px;
-				text-align: right;
+				text-align: center;
 			}
 			i{
 				font-size: 40px;
-				color:$primaryColor;
+				color:$secondaryColor;
 				display: block;
-				text-align:right;
+				text-align:center;
 			}
 			.fa-mobile{
 				font-size: 60px;
@@ -28,6 +34,7 @@
 			}
 			.fa-linkedin-square {
 				margin-top: 25px;
+				padding-top:5px;
 			}
 		}
 	}
@@ -37,7 +44,7 @@
 .contactForm {
 	margin-top: 20px;
 	margin-left: 10px;
-	margin-bottom:40px;
+	margin-bottom:50px;
 	label{
 		color:white;
 		font-size: 23px;
@@ -46,28 +53,31 @@
 		display: block;
 		margin-top:10px;
 		width: 80%;
-		background-color:white;
-		color:darken($primaryColor,20);
+		//background-color:white;
+		color:white;
 		border:none;
 		border-radius:3px;
+		border: 3px solid white;
+		background-color:$primaryColor;
 	}
 	textarea{
 		margin-top: 10px;
 		width: 80%;
 		height: 200px;
-		background-color:white;
-		color:darken($primaryColor,20);
-		border:none;
+		border: 3px solid white;
+		background-color:$primaryColor;
+		color:white;
 		border-radius:3px;
 	}
 	button{
 		position: absolute;
-		right:135px;
+		left:15px;
 		display: block;
 		margin-top: 5px;
-		height:30px;
-		width: 70px;
+		height:35px;
+		width: 100px;
 		background-color: $primaryColor;
+		border: 3px solid white;
 		padding:0px;
 		:hover{
 			background-color:white;

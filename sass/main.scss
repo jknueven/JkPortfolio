@@ -3,6 +3,7 @@ $secondaryColor: #252525;
 
 @import "contact";
 @import "about";
+@import "work";
 
 body {
 	//background-color:$secondaryColor;
@@ -90,23 +91,13 @@ header{
 	display: block;
 	margin:auto;
 	width: 50%;
-		p{
-		color:$secondaryColor;
-		}
-	}
-	.shadow {
-	font-family: "Merriweather";
-	font-size: 26px;
-	display: block;
-	margin:auto;
-	margin-top:-230px;
-	padding-left:3px;
-	width: 50%;
+	background-color: $primaryColor;
+	border-radius: 10px;
 		p{
 		color:white;
+		}
 	}
-  }
- }
+}
 
 
 footer {

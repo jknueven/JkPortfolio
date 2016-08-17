@@ -16,32 +16,38 @@
 
 .info {
 	margin-top:10px;
+	background-color:$secondaryColor;
+	border-radius: 5px;
 	ul{
-		padding:0px;
+		padding:5px;
 		li:nth-child(1){
 			list-style: none;
 		}
 		li{
 			color:white;
+			margin-left: 10px;
 			h4{
-				color:white;
+				color:$primaryColor;
 				font-family:"Merriweather";
 				font-size: 23px;
+				margin-left: -15px;
 			}
 			p{
 				//font-family: "Dynalight";
 				font-size: 16px;
+				color: white;
 			}
 		}
 		}
 	.main {
 		h2 {
-			color:white;
+			color:$primaryColor;
 			font-family: "Merriweather";
 			font-style: italic;
 		}
 		p{
 			font-size: 18px;
+			color:white;
 		}
 	}
 }
