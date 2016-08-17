@@ -1,25 +1,35 @@
-.contactInfo ul {
-  text-align: center;
-  display: inline-block;
-  list-style: none;
-  margin: auto; }
-  .contactInfo ul li {
-    display: block; }
-    .contactInfo ul li p {
-      color: white;
-      font-size: 18px;
-      text-align: right; }
-    .contactInfo ul li i {
-      font-size: 40px;
-      color: #7A98C2;
-      display: block;
-      text-align: right; }
-    .contactInfo ul li .fa-mobile {
-      font-size: 60px; }
+.contactInfo {
+  margin-top: 70px;
+  margin-left: 170px; }
+  .contactInfo ul {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding-right: 30px;
+    border-right: 4px dashed #7A98C2; }
+    .contactInfo ul li {
+      display: block; }
+      .contactInfo ul li p {
+        color: white;
+        font-size: 18px;
+        text-align: right; }
+      .contactInfo ul li i {
+        font-size: 40px;
+        color: #7A98C2;
+        display: block;
+        text-align: right; }
+      .contactInfo ul li .fa-mobile {
+        font-size: 60px; }
 
 .contactForm {
-  margin-bottom: 20px;
-  float: right; }
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 40px; }
+  .contactForm label {
+    color: white;
+    font-size: 23px; }
   .contactForm input {
     display: block;
     margin-top: 10px;
