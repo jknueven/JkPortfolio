@@ -1,18 +1,22 @@
 .contactInfo {
-	margin:20px;
+	//margin:20px;
 	ul {
 		text-align:center;
-		display:block;
+		display:inline-block;
+		list-style: none;
+		margin:auto;
 		li{
+			display: block;
 			p{
 				color:white;
 				font-size: 18px;
+				text-align: right;
 			}
 			i{
 				font-size: 40px;
 				color:$primaryColor;
 				display: block;
-				text-align: left;
+				text-align:right;
 			}
 			.fa-mobile{
 				font-size: 60px;
@@ -21,8 +25,9 @@
 	}
 }
 
+
 .contactForm {
-	margin:20px;
+	margin-bottom:20px;
 	float:right;
 	input{
 		display: block;
@@ -44,7 +49,7 @@
 	}
 	button{
 		position: absolute;
-		right:95px;
+		right:135px;
 		display: block;
 		margin-top: 5px;
 		height:30px;

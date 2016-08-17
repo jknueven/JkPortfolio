@@ -93,30 +93,56 @@ header{
 	}
 }
 
+
 footer {
 	text-align:center;
 	margin:auto;
-	margin-top:30px;
+	margin-top:20px;
 	border-top:5px dashed $primaryColor;
-	ul{
-		list-style: none;
-		padding: 0;
-		li{
+	.footer{
+		width: 100%;
+		margin:auto;
+		margin-top: 20px;
+		ul{
+			list-style: none;
+			padding-right: 0;
+			margin-bottom: 0px;
+			li{
+				display: inline-block;
+				padding:10px;
+			}
+			p{
+				font-size: 16px;
+			}
+			i{
+				font-size: 30px;
 
-		}
-		p{
-			font-size: 16px;
-		}
-		i{
-			font-size: 30px;
-		}
-		h3{
-			font-family: "Merriweather";
-			font-weight: bold;
-			text-decoration: underline;
+			}
+			h3{
+				font-family: "Merriweather";
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			i:hover {
+					color:white;
+			}
 		}
 	}
-	i{
-		margin:5px;
+	.logoWrap{
+		height: 100px;
+		width: 100px;
+		border-radius:50%;
+		border:10px solid $primaryColor;
+		display: block;
+		margin:auto;
+		margin-top: 30px;
+		h2 {
+			font-family: "Merriweather";
+			font-size: 60px;
+			color:white;
+			display: block;
+			margin:auto;
+			margin-top: 7px;
+		}
 	}
 }

@@ -17,12 +17,16 @@
 .info {
 	margin-top:10px;
 	ul{
-		list-style: none;
 		padding:0px;
+		li:nth-child(1){
+			list-style: none;
+		}
 		li{
+			color:white;
 			h4{
 				color:white;
 				font-family:"Merriweather";
+				font-size: 23px;
 			}
 			p{
 				//font-family: "Dynalight";

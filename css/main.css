@@ -1,21 +1,24 @@
-.contactInfo {
-  margin: 20px; }
-  .contactInfo ul {
-    text-align: center;
+.contactInfo ul {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  margin: auto; }
+  .contactInfo ul li {
     display: block; }
     .contactInfo ul li p {
       color: white;
-      font-size: 18px; }
+      font-size: 18px;
+      text-align: right; }
     .contactInfo ul li i {
       font-size: 40px;
       color: #7A98C2;
       display: block;
-      text-align: left; }
+      text-align: right; }
     .contactInfo ul li .fa-mobile {
       font-size: 60px; }
 
 .contactForm {
-  margin: 20px;
+  margin-bottom: 20px;
   float: right; }
   .contactForm input {
     display: block;
@@ -35,7 +38,7 @@
     border-radius: 3px; }
   .contactForm button {
     position: absolute;
-    right: 95px;
+    right: 135px;
     display: block;
     margin-top: 5px;
     height: 30px;
@@ -71,13 +74,17 @@
 .info {
   margin-top: 10px; }
   .info ul {
-    list-style: none;
     padding: 0px; }
-    .info ul li h4 {
-      color: white;
-      font-family: "Merriweather"; }
-    .info ul li p {
-      font-size: 16px; }
+    .info ul li:nth-child(1) {
+      list-style: none; }
+    .info ul li {
+      color: white; }
+      .info ul li h4 {
+        color: white;
+        font-family: "Merriweather";
+        font-size: 23px; }
+      .info ul li p {
+        font-size: 16px; }
   .info .main h2 {
     color: white;
     font-family: "Merriweather";
@@ -155,18 +162,41 @@ header {
 footer {
   text-align: center;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   border-top: 5px dashed #7A98C2; }
-  footer ul {
-    list-style: none;
-    padding: 0; }
-    footer ul p {
-      font-size: 16px; }
-    footer ul i {
-      font-size: 30px; }
-    footer ul h3 {
+  footer .footer {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px; }
+    footer .footer ul {
+      list-style: none;
+      padding-right: 0;
+      margin-bottom: 0px; }
+      footer .footer ul li {
+        display: inline-block;
+        padding: 10px; }
+      footer .footer ul p {
+        font-size: 16px; }
+      footer .footer ul i {
+        font-size: 30px; }
+      footer .footer ul h3 {
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-decoration: underline; }
+      footer .footer ul i:hover {
+        color: white; }
+  footer .logoWrap {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #7A98C2;
+    display: block;
+    margin: auto;
+    margin-top: 30px; }
+    footer .logoWrap h2 {
       font-family: "Merriweather";
-      font-weight: bold;
-      text-decoration: underline; }
-  footer i {
-    margin: 5px; }
+      font-size: 60px;
+      color: white;
+      display: block;
+      margin: auto;
+      margin-top: 7px; }
