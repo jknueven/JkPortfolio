@@ -5,7 +5,8 @@ $secondaryColor: #252525;
 @import "about";
 
 body {
-	background-color:$secondaryColor;
+	//background-color:$secondaryColor;
+	background: url('../images/woodbackground')
 }
 
 h1, h2, h3, h4, p, i {
@@ -21,6 +22,8 @@ h1 {
 header{
 	text-align:center;
 	margin:auto;
+	background-color: $secondaryColor;
+	width:100%;
 }
 
 .nav {
@@ -73,11 +76,11 @@ header{
 	display: block;
 	margin:auto;
 	text-align:center;
-	
 	h2 {
 	font-family: "Dynalight";
 	font-weight:bold;
-	font-size:50px;
+	font-size:110px;
+	color:white;
 	//font-style:italic;
 	}
 
@@ -88,21 +91,34 @@ header{
 	margin:auto;
 	width: 50%;
 		p{
-		color:white;
+		color:$secondaryColor;
 		}
 	}
-}
+	.shadow {
+	font-family: "Merriweather";
+	font-size: 26px;
+	display: block;
+	margin:auto;
+	margin-top:-230px;
+	padding-left:3px;
+	width: 50%;
+		p{
+		color:white;
+	}
+  }
+ }
 
 
 footer {
 	text-align:center;
 	margin:auto;
-	margin-top:20px;
+	margin-top:10px;
 	border-top:5px dashed $primaryColor;
+	background-color: $secondaryColor;
 	.footer{
 		width: 100%;
 		margin:auto;
-		margin-top: 20px;
+		margin-top: 10px;
 		ul{
 			list-style: none;
 			padding-right: 0;

@@ -21,7 +21,10 @@
         display: block;
         text-align: right; }
       .contactInfo ul li .fa-mobile {
-        font-size: 60px; }
+        font-size: 60px;
+        margin-top: 20px; }
+      .contactInfo ul li .fa-linkedin-square {
+        margin-top: 25px; }
 
 .contactForm {
   margin-top: 20px;
@@ -103,7 +106,7 @@
     font-size: 18px; }
 
 body {
-  background-color: #252525; }
+  background: url("../images/woodbackground"); }
 
 h1, h2, h3, h4, p, i {
   color: #7A98C2; }
@@ -115,7 +118,9 @@ h1 {
 
 header {
   text-align: center;
-  margin: auto; }
+  margin: auto;
+  background-color: #252525;
+  width: 100%; }
 
 .nav {
   border-bottom: 5px dashed #7A98C2; }
@@ -159,7 +164,8 @@ header {
   .splash h2 {
     font-family: "Dynalight";
     font-weight: bold;
-    font-size: 50px; }
+    font-size: 110px;
+    color: white; }
   .splash .subSplash {
     font-family: "Merriweather";
     font-size: 26px;
@@ -167,17 +173,28 @@ header {
     margin: auto;
     width: 50%; }
     .splash .subSplash p {
+      color: #252525; }
+  .splash .shadow {
+    font-family: "Merriweather";
+    font-size: 26px;
+    display: block;
+    margin: auto;
+    margin-top: -230px;
+    padding-left: 3px;
+    width: 50%; }
+    .splash .shadow p {
       color: white; }
 
 footer {
   text-align: center;
   margin: auto;
-  margin-top: 20px;
-  border-top: 5px dashed #7A98C2; }
+  margin-top: 10px;
+  border-top: 5px dashed #7A98C2;
+  background-color: #252525; }
   footer .footer {
     width: 100%;
     margin: auto;
-    margin-top: 20px; }
+    margin-top: 10px; }
     footer .footer ul {
       list-style: none;
       padding-right: 0;
