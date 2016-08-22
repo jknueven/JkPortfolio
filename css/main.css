@@ -119,7 +119,14 @@
     color: white; }
 
 .row {
-  margin-top: 15px; }
+  margin-top: 25px; }
+  .row .img {
+    padding-top: 5px; }
+    .row .img img {
+      height: 145px;
+      width: 80%;
+      margin: auto;
+      display: block; }
   .row .content {
     background-color: #252525;
     border-radius: 5px;
@@ -130,6 +137,8 @@
     .row .content .last {
       color: white;
       font-style: italic; }
+    .row .content a {
+      padding-bottom: 10px; }
 
 body {
   background: url("../images/woodbackground"); }
