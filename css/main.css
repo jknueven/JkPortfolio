@@ -1,27 +1,31 @@
 .contactInfo {
-  margin-top: 70px;
-  margin-left: 170px; }
+  display: block;
+  margin: auto;
+  margin-left: 38%;
+  margin-bottom: 20px; }
   .contactInfo ul {
-    position: absolute;
-    right: 0px;
+    border-radius: 2px;
     display: inline-block;
     list-style: none;
     margin: auto;
     padding-right: 0px; }
     .contactInfo ul li {
       display: block;
-      background-color: #7A98C2;
-      border-radius: 5px;
       padding: 10px;
       padding-top: 0px;
       padding-bottom: 0px; }
+      .contactInfo ul li a {
+        display: block;
+        margin: auto; }
+        .contactInfo ul li a :hover {
+          color: #7A98C2; }
       .contactInfo ul li p {
         color: white;
-        font-size: 18px;
+        font-size: 20px;
         text-align: center; }
       .contactInfo ul li i {
         font-size: 40px;
-        color: #252525;
+        color: white;
         display: block;
         text-align: center; }
       .contactInfo ul li .fa-mobile {
@@ -30,6 +34,11 @@
       .contactInfo ul li .fa-linkedin-square {
         margin-top: 25px;
         padding-top: 5px; }
+      .contactInfo ul li .jotform {
+        background-color: #7A98C2;
+        font-size: 16px;
+        height: 40px;
+        text-align: center; }
 
 .contactForm {
   margin-top: 20px;
@@ -119,9 +128,10 @@
     color: white; }
 
 .row {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
   .row .img {
-    padding-top: 5px; }
+    padding-top: 7px; }
     .row .img img {
       height: 145px;
       width: 80%;
@@ -132,6 +142,7 @@
     border-radius: 5px;
     border: 2px solid white; }
     .row .content h2 {
+      margin-top: 8px;
       color: white;
       font-family: "Merriweather"; }
     .row .content .last {
@@ -207,10 +218,11 @@ header {
     display: block;
     margin: auto;
     width: 50%;
-    background-color: #7A98C2;
-    border-radius: 10px; }
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 3px; }
     .splash .subSplash p {
-      color: white; }
+      color: #252525; }
 
 footer {
   text-align: center;
