@@ -2,7 +2,7 @@
 .contactInfo {
 	display:block;
 	margin:auto;
-	margin-left: 38%;
+	margin-left: 36%;
 	margin-bottom: 20px;
 	ul {
 		//position: absolute;
@@ -28,17 +28,18 @@
 			}
 			p{
 				color:white;
+				font-family: "Merriweather";
 				font-size: 20px;
 				text-align: center;
 			}
 			i{
-				font-size: 40px;
+				font-size: 50px;
 				color:white;
 				display: block;
 				text-align:center;
 			}
 			.fa-mobile{
-				font-size: 60px;
+				font-size: 70px;
 				margin-top: 20px;
 			}
 			.fa-linkedin-square {
@@ -47,9 +48,18 @@
 			}
 			.jotform{
 				background-color:$primaryColor;
+				font-family: "Merriweather";
 				font-size: 16px;
 				height: 40px;
 				text-align: center;
+				border: none;
+				padding-top: 8px;
+				margin-top: 25px;
+			}
+			.jotform:hover{
+					background-color: white;
+					color:$primaryColor;
+					border:1px solid $secondaryColor;
 			}
 		}
 	}
@@ -110,5 +120,11 @@
 			padding-top:2px;
 			color:white;
 		}
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.contactInfo{
+		margin-left: 0px;
 	}
 }
